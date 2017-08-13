@@ -1,27 +1,15 @@
 {
-  "name": "react-dianping",
+  "name": "react-dianping-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "start": "NODE_ENV=dev webpack-dev-server --progress --colors",
     "mock": "node --harmony ./mock/server.js",
     "build": "rm -rf ./build && NODE_ENV=production webpack --config ./webpack.production.config.js --progress --colors"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LaughingKids/react-dianping.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LaughingKids/react-dianping/issues"
-  },
-  "homepage": "https://github.com/LaughingKids/react-dianping#readme",
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "babel-core": "^6.14.0",
